@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6d9d82d-adc2-4772-a4f5-66a15953cd96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/default.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ConfigController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/config/siteconfig.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +123,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -134,6 +136,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/admin" />
       <recent name="$PROJECT_DIR$/public/static/admin" />
@@ -172,7 +177,7 @@
       <workItem from="1573246914078" duration="3223000" />
       <workItem from="1573454007217" duration="7942000" />
       <workItem from="1573467515023" duration="268000" />
-      <workItem from="1573891233441" duration="8969000" />
+      <workItem from="1573891233441" duration="14739000" />
     </task>
     <servers />
   </component>
