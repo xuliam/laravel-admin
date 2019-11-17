@@ -20,7 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('admin')->name('admin.')->group(function  ()  {
-    Route::get('/',  "Admin\IndexController@index")->name('home');
+    Route::get('/index',  "Admin\IndexController@index")->name('home');
     Route::group(['prefix'=>'config'],function (){
         Route::get("/site", "Admin\ConfigController@siteconfig")->name('siteconfig');
     });
