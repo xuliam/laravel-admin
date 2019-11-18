@@ -62,7 +62,6 @@
                                             @else
                                                 <input type="radio" class="form-check-input" name="status" id="status" value="0" > Off <i class="input-helper"></i></label>
                                             @endif
-{{--                                    add something--}}
 
 
                                 </div>
