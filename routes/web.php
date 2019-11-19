@@ -25,8 +25,11 @@ Route::prefix('admin')->name('admin.')->group(function  ()  {
         Route::get("/site", "Admin\ConfigController@siteconfig")->name('config.siteconfig');
         Route::post("/store", "Admin\ConfigController@store")->name('config.store');
     });
+
+    Route::get('/login', 'Admin\LoginController@login')->name('login.login');
+    Route::post('/dologin', 'Admin\LoginController@dologin')->name('login.dologin');
 });
 
-Route::get('article', function(){
-    return view("admin.index.index");
-});
+//Route::get('article', function(){
+//    return view("admin.index.index");
+//});
